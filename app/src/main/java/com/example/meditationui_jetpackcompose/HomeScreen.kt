@@ -1,6 +1,5 @@
-package com.example.meditationui_jetpackcompose.ui.theme
+package com.example.meditationui_jetpackcompose
 
-import android.provider.CalendarContract
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -34,12 +33,13 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Path
-import androidx.compose.ui.graphics.asAndroidPath
 import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.meditationui_jetpackcompose.Feature
-import com.example.meditationui_jetpackcompose.R
+import com.example.meditationui_jetpackcompose.ui.theme.ButtonBlue
+import com.example.meditationui_jetpackcompose.ui.theme.DarkerButtonBlue
+import com.example.meditationui_jetpackcompose.ui.theme.DeepBlue
+import com.example.meditationui_jetpackcompose.ui.theme.LightRed
+import com.example.meditationui_jetpackcompose.ui.theme.TextWhite
 
 @Composable
 fun HomeScreen(){

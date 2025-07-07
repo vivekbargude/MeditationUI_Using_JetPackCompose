@@ -52,6 +52,7 @@ fun HomeScreen(){
             GreetingSection()
             ChipSection(chips = listOf("Sweet Sleep","Insomnia","Depression"))
             CurrentMeditation()
+
         }
     }
 }
